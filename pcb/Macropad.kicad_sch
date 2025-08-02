@@ -1845,7 +1845,7 @@
 		)
 		(uuid "5e3f5cee-bcba-4e2b-847e-b381303335e1")
 	)
-	(text_box "RGP Matrix"
+	(text_box "RGB Matrix"
 		(exclude_from_sim no)
 		(at 30.48 64.77 0)
 		(size 111.76 62.23)
@@ -4381,6 +4381,71 @@
 			(project "Macropad"
 				(path "/3b46d3fc-ddd1-4fb8-b937-79db70ce81ac"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e1d1562-4487-4ca1-b2a7-e4cedbc3f265")
+		(property "Reference" "#PWR010"
+			(at 143.51 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde4e738-fe44-4083-9aa1-61419cae6080")
+		)
+		(instances
+			(project "Macropad"
+				(path "/3b46d3fc-ddd1-4fb8-b937-79db70ce81ac"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
